@@ -44,6 +44,6 @@ function date_time(CurrentDay, CurrentHour)
 };
 
 $("#mobile").click(function(){
-    $("#MobileNumber").show(5000);
+    $("#MobileNumber").show(2500);
     $("#MobileNumber").css("display", "inline-flex");
 });

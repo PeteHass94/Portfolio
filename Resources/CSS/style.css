@@ -198,7 +198,7 @@ header ul li a:hover {
 #MobileNumber #SocialLink a {
   color: #6d00ae;
   font-weight: 400;
-  font-family: "Alegreya", Georgia, serif;
+  font-family: "Century Gothic", Georgia, serif;
   margin-right: 0.2em;
   text-decoration: none;
 }
@@ -235,7 +235,7 @@ button {
 
 
 
-.Workcontainer h1.Title {
+.Title {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -243,16 +243,55 @@ button {
   font-weight: 700;
   font-family: "Alegreya", Georgia, serif;
   padding-bottom: 0.2em;
+  border-bottom: 2px solid #204056;
 }
-.Workcontainer h3.Description {
+.Workcontainer .Description h3 {
+  color: #204056;
+  font-weight: 400;
+  font-family: "Roboto", Helvetica, sans-serif;
+  line-height: 1.3em;
+}
+.Workcontainer .Description h3 a{
+  color: #204056;
+}
+.Workcontainer .Description h3 a:hover{
+  color: #ff0000;
+}
 
-}
+
 
 
 
 /*CV */
+.tex sub, .latex sub, .latex sup {
+  text-transform: uppercase;
+}
 
+.tex sub, .latex sub {
+  vertical-align: -0.1ex;
+  margin-left: -0.1667em;
+  margin-right: -0.125em;
+}
 
+.tex, .latex, .tex sub, .latex sub {
+  font-size: 1em;
+}
+
+.latex sup {
+  font-size: 0.85em;
+  vertical-align: -0.1em;
+  margin-left: -0.36em;
+  margin-right: -0.15em;
+}
+
+@media screen and (max-width: 740px){
+  .timeline {
+    display: none;
+  }
+  #CV {
+    height: 50vh;
+  }
+}
 /*Codecademy */
 
 /*Other */
