@@ -1,0 +1,261 @@
+/*
+Colours:
+
+black: #000000
+white: #ffffff
+yellow: #ffff00
+purple: #6d00ae
+blue: #0294ce
+aqua green: #22ae90
+gold: #bba461
+dark blue: #204056
+red: #ff0000
+
+*/
+
+h1 {
+  color: purple;
+}
+/*Header */
+header {
+  min-height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #204056;
+}
+header ul {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 60%;
+}
+header ul li{
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.5em;
+}
+header ul li a{
+  font-style: none;
+  color: #0294ce;
+  padding: 0.5em 1em;
+}
+header ul li a:hover {
+  background-color: #6d00ae;
+  color: #ffffff;
+}
+#date_time {
+  color: #bba461;
+  font-size: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* media queries */
+
+@media screen and (max-width: 640px){
+  #date_time {
+      display: none;
+  }
+  header {
+    min-height: 10vh;
+    padding: 1em;
+  }
+  header ul {
+    margin: auto;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 340px){
+  #desktop {
+      display: none;
+  }
+}
+/*Header end */
+/*Home */
+#Home {
+  height: 60vh;
+  width: 100%;
+  margin-bottom: 0;
+}
+.jumbotron {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+}
+.logo img{
+  margin: auto;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+}
+.Name {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto 2em;
+}
+.Name #First{
+  color: #6d00ae;
+  font-weight: 400;
+  font-family: "Alegreya", Georgia, serif;
+  margin-right: 0.2em;
+}
+.Name #Last {
+  color: #bba461;
+  font-weight: 700;
+  font-family: "Roboto", Helvetica, sans-serif;
+}
+@media screen and (max-width: 640px){
+  .jumbotron {
+      min-height: 60vh;
+      max-width: 100vh;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 0;
+
+  }
+  .logo {
+    max-height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .logo img{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+  }
+  #Home .Name {
+    max-height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: auto;
+    margin-top: 1em;
+  }
+  #Home #First {
+    margin: auto;
+  }
+  #Home #Last {
+    margin: auto;
+  }
+}
+
+
+@media screen and (max-width: 340px){
+  .logo {
+      height: 60%;
+  }
+}
+/*Social */
+#Social {
+  min-height: 30vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #0294ce
+}
+
+.welcome{
+  min-height: 15vh;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+#SocialTitle {
+  margin-right: 1rem;
+  color: #6d00ae;
+  font-weight: 700;
+  font-family: "Alegreya", Georgia, serif;
+  margin-right: 0.2em;
+}
+#SocialLink {
+  color: #6d00ae;
+  font-weight: 400;
+  font-family: "Alegreya", Georgia, serif;
+  margin-right: 0.2em;
+}
+#MobileNumber {
+  display: none;
+  min-height: 15vh;
+  justify-content: center;
+  align-items: center;
+}
+#MobileNumber #SocialLink a {
+  color: #6d00ae;
+  font-weight: 400;
+  font-family: "Alegreya", Georgia, serif;
+  margin-right: 0.2em;
+  text-decoration: none;
+}
+button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 640px){
+  #MobileNumber, .welcome {
+    height: 10vh;
+  }
+  #MobileNumber #SocialTitle, .welcome #SocialLink {
+    display: none;
+  }
+}
+/*Work containers */
+.Workcontainer {
+  min-height: 90vh;
+  width: 100%;
+  padding: 2em;
+}
+.Workcontainer:nth-child(odd) {
+  background-color: #bba461
+}
+.Workcontainer:nth-child(even) {
+  background-color: #22ae90
+}
+
+
+
+.Workcontainer h1.Title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6d00ae;
+  font-weight: 700;
+  font-family: "Alegreya", Georgia, serif;
+  padding-bottom: 0.2em;
+}
+.Workcontainer h3.Description {
+
+}
+
+
+
+/*CV */
+
+
+/*Codecademy */
+
+/*Other */
+
+
+/*Footer */
