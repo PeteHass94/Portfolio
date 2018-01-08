@@ -324,7 +324,22 @@ button {
 /*Codecademy */
 
 /*Other */
-
+.WorkContent ul {
+  line-height: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.WorkContent ul li {
+  font-size: 3em;
+}
+.WorkContent ul li a{
+margin-right: 0.5em; 
+  color:  #ffffff;
+}
+.WorkContent ul li a:hover{
+background-color: #ff0000
+}
 
 /*Footer */
 footer{
